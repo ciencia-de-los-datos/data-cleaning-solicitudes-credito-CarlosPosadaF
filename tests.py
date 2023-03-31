@@ -7,7 +7,6 @@ import sys
 
 import pregunta
 
-
 def test_01():
     assert pregunta.clean_data().sexo.value_counts().to_list() == [6617, 3589]
 
