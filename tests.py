@@ -1,8 +1,7 @@
 """
 Calificación del laboratorio
------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 """
-
 import sys
 
 import pregunta
@@ -325,6 +324,7 @@ def test_04():
         1,
         1,
     ]
+
 
 def test_05():
     assert pregunta.clean_data().estrato.value_counts().to_list() == [
@@ -1451,7 +1451,6 @@ def test_09():
         1,
         1,
     ]
-
 
 test = {
     "01": test_01,
